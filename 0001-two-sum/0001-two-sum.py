@@ -5,14 +5,9 @@ class Solution(object):
         :type target: int
         :rtype: List[int]
         """
-        a = []
-        i = 0
-        req_num = 0
+        
         n = len(nums)
-        while i < n:
-            req_num = target - nums[i]
-            if req_num in nums[i+1:]:
-                a.append(i)
-                a.append(nums.index(req_num, i+1))
-                return a
-            i += 1
+        for i in range(n):
+            for j in range(i+1,n):
+                if nums[i] + nums[j] == target:
+                    return [i,j]
