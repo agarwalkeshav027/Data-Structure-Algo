@@ -6,13 +6,13 @@ class Solution(object):
         :rtype: List[int]
         """
         a = []
-        total = 0
-        for i in range(len(nums)):
-            a = []
-            if target >= nums[i] or target <= nums[i]:
-                total = nums[i]
+        i = 0
+        req_num = 0
+        n = len(nums)
+        while i < n:
+            req_num = target - nums[i]
+            if req_num in nums[i+1:]:
                 a.append(i)
-            for j in range(i+1, len(nums)):
-                if total + nums[j] == target:
-                    a.append(j)
-                    return a 
+                a.append(nums.index(req_num, i+1))
+                return a
+            i += 1
