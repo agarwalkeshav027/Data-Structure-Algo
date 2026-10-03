@@ -5,13 +5,10 @@ class Solution(object):
         :rtype: int
         """
         a = {}
-        b = {}
-        x = []
-        
+        max_num = 0
         for i in range(len(nums)):
                 a[nums[i]] = a.get(nums[i], 0) + 1
-        for val in a.values():
-             x.append(val)
-        for k,v in a.items():
-            b[v] = k
-        return b[max(x)]
+                if a[nums[i]] > max_num:
+                    max_num = a[nums[i]]
+                    variable = nums[i]
+        return variable
