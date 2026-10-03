@@ -4,12 +4,14 @@ class Solution(object):
         :type nums: List[int]
         :rtype: int
         """
-        a={}
+        a = {}
+        b = {}
         x = []
+        
         for i in range(len(nums)):
                 a[nums[i]] = a.get(nums[i], 0) + 1
         for val in a.values():
              x.append(val)
         for k,v in a.items():
-             if v == max(x):
-                  return k
+            b[v] = k
+        return b[max(x)]
