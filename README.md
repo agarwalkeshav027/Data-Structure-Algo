@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0001-two-sum](https://github.com/agarwalkeshav027/Data-Structure-Algo/tree/master/0001-two-sum) |
 | [0075-sort-colors](https://github.com/agarwalkeshav027/Data-Structure-Algo/tree/master/0075-sort-colors) |
 | [0169-majority-element](https://github.com/agarwalkeshav027/Data-Structure-Algo/tree/master/0169-majority-element) |
+| [2149-rearrange-array-elements-by-sign](https://github.com/agarwalkeshav027/Data-Structure-Algo/tree/master/2149-rearrange-array-elements-by-sign) |
 ## Hash Table
 |  |
 | ------- |
@@ -16,6 +17,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0075-sort-colors](https://github.com/agarwalkeshav027/Data-Structure-Algo/tree/master/0075-sort-colors) |
+| [2149-rearrange-array-elements-by-sign](https://github.com/agarwalkeshav027/Data-Structure-Algo/tree/master/2149-rearrange-array-elements-by-sign) |
 ## Sorting
 |  |
 | ------- |
@@ -41,4 +43,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/agarwalkeshav027/Data-Structure-Algo/tree/master/0169-majority-element) |
+## Simulation
+|  |
+| ------- |
+| [2149-rearrange-array-elements-by-sign](https://github.com/agarwalkeshav027/Data-Structure-Algo/tree/master/2149-rearrange-array-elements-by-sign) |
 <!---LeetCode Topics End-->
